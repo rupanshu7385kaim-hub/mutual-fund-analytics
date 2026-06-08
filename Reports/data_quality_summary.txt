@@ -1,0 +1,76 @@
+DATA QUALITY SUMMARY
+
+Total Datasets Loaded: 10
+
+1. fund_master
+- Rows: 40
+- Columns: 15
+- Missing Values: 0
+- Duplicate Rows: 0
+
+2. nav_history
+- Rows: 46000
+- Columns: 3
+- Missing Values: 0
+- Duplicate Rows: 0
+
+3. aum_by_fund_house
+- Rows: 90
+- Columns: 5
+- Missing Values: 0
+- Duplicate Rows: 0
+
+4. monthly_sip_inflows
+- Rows: 48
+- Columns: 6
+- Missing Values: 12
+- Duplicate Rows: 0
+- Observation: Missing YoY growth values where previous-year comparison was unavailable.
+
+5. category_inflows
+- Rows: 144
+- Columns: 3
+- Missing Values: 0
+- Duplicate Rows: 0
+
+6. industry_folio_count
+- Rows: 21
+- Columns: 6
+- Missing Values: 0
+- Duplicate Rows: 0
+
+7. scheme_performance
+- Rows: 40
+- Columns: 19
+- Missing Values: 0
+- Duplicate Rows: 0
+
+8. investor_transactions
+- Rows: 32778
+- Columns: 13
+- Missing Values: 0
+- Duplicate Rows: 0
+
+9. portfolio_holdings
+- Rows: 322
+- Columns: 8
+- Missing Values: 0
+- Duplicate Rows: 0
+
+10. benchmark_indices
+- Rows: 8050
+- Columns: 3
+- Missing Values: 0
+- Duplicate Rows: 0
+
+AMFI CODE VALIDATION
+
+- All AMFI codes from fund_master were found in nav_history.
+- No missing scheme codes detected.
+
+OVERALL STATUS
+
+- Data quality is good.
+- No duplicate records found.
+- No major issues detected.
+- Date fields should be converted to datetime during preprocessing.
